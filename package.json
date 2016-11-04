@@ -1,9 +1,13 @@
 {
   "name": "ts-jquery-seed",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Create jquery plugins with typescript and rollup.",
   "keywords": [
-    "typescript", "jquery", "seed", "rollup", "plugins"
+    "typescript",
+    "jquery",
+    "seed",
+    "rollup",
+    "plugins"
   ],
   "typings": "src/index.ts",
   "author": "Miguel Ramos <miguel.marques.ramos@gmail.com>",
