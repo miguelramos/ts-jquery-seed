@@ -2,8 +2,14 @@
     "compilerOptions": {
         "target": "es5",
         "module": "es2015",
-        "noImplicitAny": false,
-        "sourceMap": false
+        "moduleResolution": "node",
+        "sourceMap": true,
+
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "removeComments": false,
+        "noImplicitAny": true,
+        "suppressImplicitAnyIndexErrors": true
     },
     "exclude": [
         "node_modules"

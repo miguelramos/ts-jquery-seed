@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>AutoComplete Github</title>
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <style>
+      .avatar {
+          margin-left: 5px;
+
+          margin-top: 5px;
+          margin-right: 1em;
+          position: relative;
+
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          border-radius: 50%;
+
+          -webkit-box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
+          -moz-box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
+          box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
+      }
+      .avatar a {
+        margin-top: 4%;
+      }
+      .avatar {
+        width: 32px;
+        height: auto;
+      }
+      .avatar {
+        width: auto;
+        height: 32px;
+      }
+      .dropdown {
+        padding: 5px;
+      }
+      .dropdown:hover, .dropdown-display {
+        background-color: #333;
+      }
+      .dropdown .side {
+        display: inline-block;
+        min-width: 34px;
+        padding: 2px;
+      }
+      a {
+        cursor: pointer;
+      }
+    </style>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="jumbotron">
+      <div class="container">
+        <h2>Search for GitHub User</h2>
+        <div id="hub-complete">
+          <input type="text" class="form-control" placeholder="Type a username for autocomplete.">
+        </div>
+      </div>
+    </div>
+    <p class="lead">Great Lorem</p>
+    <div id="lipsum">
+      <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus leo, fringilla ut sapien non, tempor finibus erat. Pellentesque risus magna, cursus sit amet tortor eu, mattis scelerisque arcu. Pellentesque pellentesque, neque nec fringilla ultricies, metus sapien pellentesque eros, ut porta ligula metus ac quam. Nullam et odio eget odio molestie ornare eu ut est. Phasellus at leo ante. Sed ornare mi odio, id hendrerit ante interdum ac. Quisque sit amet sollicitudin risus. Vivamus nec eleifend arcu. Nullam sit amet tincidunt massa. Aliquam quis metus sagittis, sollicitudin arcu sit amet, aliquet dolor. Cras ac dui scelerisque, pharetra sem vel, aliquet diam. Donec ultrices nulla lectus, quis iaculis libero laoreet vel.
+      </p>
+      <p>
+      Nunc tristique eros lobortis turpis pharetra, eget gravida urna sollicitudin. Maecenas egestas nisl eu sem tempor, ac euismod ex tempus. Curabitur id pellentesque lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum erat et magna sagittis, vitae tristique nisi condimentum. Duis velit eros, egestas ut fringilla eu, aliquet sagittis nulla. Nam consectetur porttitor nisi, at aliquam lacus. Sed bibendum nibh consequat eros tincidunt, non commodo augue mollis. Pellentesque non erat maximus, vestibulum urna ac, mattis tortor. Nulla elementum vehicula ex eu consequat. Donec vel erat a nunc pellentesque bibendum sed sed augue. Suspendisse sed luctus erat. Donec eu diam eget nisl varius consequat.
+      </p>
+      <p>
+      Donec mattis ante nec nisl gravida, a egestas nibh interdum. Sed volutpat cursus risus. Nunc blandit eros a libero fringilla, vel consectetur eros iaculis. In quis nisi vel nisi aliquam euismod sit amet ut mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam placerat ullamcorper rutrum. Integer nec efficitur orci.
+      </p>
+      <p>
+      Donec id fringilla mauris, sed sollicitudin ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque tortor lacus, eleifend in tellus vitae, aliquam elementum sem. Curabitur ut rhoncus nibh. Fusce tempus dolor quis elementum tempor. Nullam justo augue, elementum id gravida nec, efficitur sit amet velit. Curabitur consectetur purus sed nibh venenatis, sit amet ultricies ante porta. Nunc quis accumsan urna. Cras eu magna faucibus, tempus justo a, pharetra turpis. Integer felis orci, blandit blandit placerat in, elementum eget ante. Proin finibus facilisis lacus sit amet lacinia. Quisque diam tortor, venenatis a fermentum vel, pretium sed metus. Curabitur blandit mauris lacus, ut sagittis ante luctus id. Morbi at mi posuere quam vulputate suscipit vitae id metus. Fusce varius et risus id pharetra.
+      </p>
+      <p>
+      Vivamus gravida dolor ut leo ornare faucibus. In scelerisque cursus neque, luctus euismod nisi pulvinar vitae. Praesent sit amet nibh lacus. In dictum est vel efficitur placerat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed fermentum arcu non tellus porta lobortis. Nulla lacinia dapibus turpis vitae aliquam. Pellentesque fermentum accumsan scelerisque.
+      </p>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/autocomplete.bundle.js"></script>
+    <script>
+      $( document ).ready(function() {
+        console.log( "document loaded" );
+        $('#hub-complete').autohub({
+          url: 'https://api.github.com/search/users',
+          dropdownWidth: '200px'
+        });
+      });
+    </script>
+    <script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.17.5'><\/script>".replace("HOST", location.hostname));
+//]]></script>
+  </body>
+</html>
