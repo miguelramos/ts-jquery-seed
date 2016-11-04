@@ -1,11 +1,15 @@
 {
-  "name": "autohub",
+  "name": "ts-jquery-seed",
   "version": "1.0.0",
-  "description": "Github users autocomplete input.",
-  "main": "index.js",
-  "author": "Miguel Ramos",
+  "description": "Create jquery plugins with typescript and rollup.",
+  "keywords": [
+    "typescript", "jquery", "seed", "rollup", "plugins"
+  ],
+  "typings": "src/index.ts",
+  "author": "Miguel Ramos <miguel.marques.ramos@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "postinstall": "npm run build",
     "build": "node_modules/.bin/rollup -c",
     "server": "node_modules/.bin/browser-sync start --config bs-config.js"
   },
